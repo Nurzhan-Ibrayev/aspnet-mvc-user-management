@@ -1,0 +1,25 @@
+.account-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    min-height: 100vh;         
+    background: #f5f7fa;       
+    padding: 20px;
+}
+
+.account-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.account-box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
